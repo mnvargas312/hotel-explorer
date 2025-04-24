@@ -1,0 +1,12 @@
+[
+  {
+    "id": "1",
+    "name": "Oceanview Suites",
+    "location": "Miami Beach, FL",
+    "price": 250,
+    "image": "/images/hotel1.jpg",
+    "amenities": ["Pool", "Wi-Fi", "Breakfast"],
+    "slug": "oceanview-suites",
+    "description": "Enjoy beachfront views and premium service."
+  }
+]
