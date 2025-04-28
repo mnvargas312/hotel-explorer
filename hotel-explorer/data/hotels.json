@@ -4,9 +4,39 @@
     "name": "Oceanview Suites",
     "location": "Miami Beach, FL",
     "price": 250,
-    "image": "/images/hotel1.jpg",
+    "image": "hotel1.jpg",
     "amenities": ["Pool", "Wi-Fi", "Breakfast"],
     "slug": "oceanview-suites",
+    "description": "Enjoy beachfront views and premium service."
+  },
+  {
+    "id": "2",
+    "name": "Test Hotel 2",
+    "location": "Miami Beach, FL",
+    "price": 250,
+    "image": "hotel1.jpg",
+    "amenities": ["Pool", "Wi-Fi", "Breakfast"],
+    "slug": "test2",
+    "description": "Enjoy beachfront views and premium service."
+  },
+  {
+    "id": "3",
+    "name": "Test Hotel 3",
+    "location": "Miami Beach, FL",
+    "price": 250,
+    "image": "hotel1.jpg",
+    "amenities": ["Pool", "Wi-Fi", "Breakfast"],
+    "slug": "test3",
+    "description": "Enjoy beachfront views and premium service."
+  },
+  {
+    "id": "4",
+    "name": "Test Hotel 4",
+    "location": "Miami Beach, FL",
+    "price": 250,
+    "image": "hotel1.jpg",
+    "amenities": ["Pool", "Wi-Fi", "Breakfast"],
+    "slug": "test4",
     "description": "Enjoy beachfront views and premium service."
   }
 ]

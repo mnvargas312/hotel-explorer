@@ -15,7 +15,7 @@ export default async function HotelDetailPage({ params }) {
     <div>
       <h1>{hotel.name}</h1>
       <p>{hotel.description}</p>
-      <img src={`${hotel.image}`} alt={hotel.name} width={400} />
+      <img src={`/images/${hotel.image}`} alt={hotel.name} width={400} />
     </div>
   );
 }

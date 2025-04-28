@@ -4,6 +4,7 @@ import Image from 'next/image';
 import Link from 'next/link';
 
 export default function HotelCard({ hotel }) {
+  console.log(`/images/${hotel.image}`);
   return (
     <div className="border rounded-md p-4 shadow hover:shadow-lg transition">
       <Link href={`/hotels/${hotel.slug}`}>
