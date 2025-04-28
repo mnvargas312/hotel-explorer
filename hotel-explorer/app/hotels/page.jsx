@@ -1,17 +1,12 @@
-import Link from 'next/link';
+//import Link from 'next/link';
 import hotels from '../../data/hotels.json';
+import HotelList from '../../components/HotelList';
 
-export default function HotelListPage(){
+export default function HotelsPage(){
   return (
-    <div>
-      <h1>All Hotels</h1>
-      {hotels.map(hotel => (
-        <div key={hotel.slug}>
-          <h2>{hotel.name}</h2>
-          <p>{hotel.description}</p>
-          <Link href={`/hotels/${hotel.slug}`}>View Details</Link>
-        </div>
-      ))}
+    <div className="container mx-auto p-6">
+      <h1 className="text-3xl font-bold mb-4">Explore Hotels</h1>
+      <HotelList hotels={hotels} />
     </div>
-  )
+  );
 }
